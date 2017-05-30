@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\libs\aws-android-sdk-core-2.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="692b2a665954e68c6dbec62681ed2be2c7cce050">
+        <dex dex="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\aws-android-sdk-core-2.4.3_b48fc634d531589a1ea2fdf291957004c9793162\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\libs\aws-android-sdk-s3-2.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4fc140379df506e732e948ac36a34085c944a012">
+        <dex dex="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\aws-android-sdk-s3-2.4.3_750dca527f35e5c9f5a6f8514b501b1cf1209c76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_67d0185a5026394a0084466418bfbf346de26474\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_765522e6fd0b2505e5712c005eb57fa6902bcee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba1b551caf41933e0a5f504ba98d2bb46d9ed9cb">
+        <dex dex="C:\Users\sasha\Documents\gitHubProj\277App\latestWorking\277_SocialMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_efda7f22f3ebed4c948b1ad81bc8e2ef6ae79530\classes.dex" />
+    </item>
+
+</items>

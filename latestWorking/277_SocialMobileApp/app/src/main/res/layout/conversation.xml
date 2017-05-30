@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConversationActivity">
+
+    <ListView
+        android:id="@+id/conversation_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <TableLayout
+        android:id="@+id/deleteButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#B0B0B0"
+        android:padding="3dip"
+        android:stretchColumns="0,1">
+
+        <TableRow android:gravity="center">
+            <Button
+                android:id="@+id/DeleteMessage"
+                android:text="Delete Conversation" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="8dp"
+    tools:context=".login.SwipeActivity$PlaceholderFragment">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageView_UserImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:src="@android:drawable/dialog_holo_dark_frame"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_UserImage"
+        android:text="Email"
+        android:textSize="15sp"
+
+        />
+
+    <TextView
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmail"
+        android:ems="10"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewUserNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:text="Username"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextUserNameProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUserNameProfile"
+        android:ems="10"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUserNameProfile"
+        android:text="Password"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPassword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:text="Location"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLocation"
+        android:ems="10"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewProfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocation"
+        android:text="Profession"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextProfession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProfession"
+        android:ems="10"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewAboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProfession"
+        android:text="About Me"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextAboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAboutMe"
+        android:ems="10"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewInterests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAboutMe"
+        android:text="Interests"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextInterests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewInterests"
+        android:ems="10"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/selectionProfileType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextInterests"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewPublic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends Only"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectionProfileType"
+        android:layout_marginBottom="70dp"
+        android:text="Update"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

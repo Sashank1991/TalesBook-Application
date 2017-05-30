@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:id="@+id/txtPostLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_UserPost"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView_UserImage"
+            android:ems="10"
+            android:hint="Enter you post here"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsforposting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtPostLayout"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <!--android:background="#0095ff"-->
+
+
+        <Button
+            android:id="@+id/button_UploadImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editText_UserPost"
+            android:layout_toEndOf="@+id/editText_UserPost"
+            android:layout_weight="1"
+            android:text="Image"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_Post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/button_UploadImage"
+            android:layout_weight="1"
+            android:text="POST"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonsforposting"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector" />
+
+
+</RelativeLayout>
+

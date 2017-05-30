@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="8dp"
+    tools:context=".posts.NonUserProfile$PlaceholderFragment">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageView_UserImage1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:src="@android:drawable/dialog_holo_dark_frame"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView_UserName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_UserImage1"
+        android:layout_marginBottom="25dp"
+        android:text="UserName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_UserName1"
+        android:text="Email"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/editTextEmail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmail"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewLocation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail1"
+        android:text="Location"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/editTextLocation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLocation1"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewProfession1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocation1"
+        android:text="Profession"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/editTextProfession1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProfession1"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewAboutMe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProfession1"
+        android:text="About Me"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/editTextAboutMe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAboutMe1"
+        android:textSize="20sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textViewInterests1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAboutMe1"
+        android:text="Interests"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/editTextInterests1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewInterests1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextInterests1"
+        android:layout_marginBottom="70dp"
+        android:text="Message" />
+
+
+</RelativeLayout>
